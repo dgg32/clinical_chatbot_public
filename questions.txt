@@ -1,0 +1,13 @@
+
+Which condition does the trial NCT05878938 focus on?
+
+どの病気を試験NCT05878938はフォーカスする？
+
+Give me the names of categories that this condition belongs to?
+
+
+Tell me something about AbbVie using Serp_search?
+
+AbbVieはどの会社？Serp_searchをしてください
+
+Give me the NCT of trials that focus on Haemophilia A? Use Vector_search

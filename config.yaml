@@ -1,0 +1,7 @@
+neo4j_username: Your Neo4j username
+neo4j_password: Your Neo4j password
+OPENAI_API_KEY: Your OpenAI API key
+qdrant_URL: Your Qdrant URL
+qdrant_API_KEY: Your Qdrant API key
+serpapi_key: Your SerpAPI key
+```
