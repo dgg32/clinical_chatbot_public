@@ -93,7 +93,7 @@ tools = [
     )
 ]
 
-agent_instructions = "Try 'Neo4j_search' tool first. If Neo4j returns good resukt, return it and exit the chain. Use the other tools only if the user explicitly requests you to."
+agent_instructions = "Try 'Neo4j_search' tool first. If Neo4j returns good result, return it and exit the chain. Use the other tools only if the user explicitly requests you to."
 
 
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
