@@ -38,6 +38,8 @@ graph = Neo4jGraph(
 
 graph.refresh_schema()
 
+os.environ['OPENAI_API_KEY'] = PARAM["OPENAI_API_KEY"]
+
 chain_neo4j = GraphCypherQAChain.from_llm(
     ChatOpenAI(temperature=0), graph=graph, verbose=True, return_direct=True
 )
