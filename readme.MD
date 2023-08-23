@@ -23,7 +23,9 @@ Qdrant free tier
   
 2. Install the necessary Python libraries
 
-3. Run 
+3. Fill the necessary API key information in config.yaml
+
+4. Run 
 ```
 streamlit run chatbot.py
 ```
