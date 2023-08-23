@@ -1,3 +1,4 @@
+import openai
 
 from langchain.utilities import SerpAPIWrapper
 
@@ -31,6 +32,9 @@ with open("config.yaml", "r") as stream:
         PARAM = yaml.safe_load(stream)
     except yaml.YAMLError as exc:
         print(exc)
+
+os.environ['OPENAI_API_KEY'] = PARAM["OPENAI_API_KEY"]
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 graph = Neo4jGraph(
     url="bolt://localhost:7687", username=PARAM["neo4j_username"], password=PARAM["neo4j_password"]
